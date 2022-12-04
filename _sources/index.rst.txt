@@ -8,7 +8,7 @@ Bienvenidos a la documentacion de Fiestas
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contenido:
 
    inicio/inicio.rst
 
