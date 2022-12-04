@@ -1,0 +1,72 @@
+Puesta a punto del sistema
+===========================
+
+Presequisitos
+==================
+
+* Windows 10 o superior
+* Powershell
+* Git
+* Python 3.9 o superior
+* Visual Studio Code
+
+Powershell
+^^^^^^^^^^^^
+
+Para instalar PowerShell, escribimos el siguiente comando en la pantalla de la consola
+
+.. code-block:: bash
+
+    winget install --id Microsoft.Powershell --source winget
+
+Git
+^^^^^
+
+Para instalar el Git escribimos mel siguiente comando en la consola o en PowerShell
+
+.. code-block:: bash
+
+    winget install --id Git.Git -e --source winget
+
+
+Python
+^^^^^^
+
+Tenemos que descargar la ultima version de Python 3, disponible en su sitio web oficial,
+es importante instalarlo para todos los usuarios
+
+https://www.python.org/downloads/
+
+Visual Studio Code
+^^^^^^^^^^^^^^^^^^
+
+Para instalar el Visual Studio Code escribimos el siguiente comando en PowerShell
+
+.. code-block:: bash
+
+    winget install -e --id Microsoft.VisualStudioCode
+
+Recuperar el codigo del sistema
+-------------------------------
+
+El sistema esta alojado en una pagina de GitHub, 
+por lo cual se puede recuperar desde cualquier parte del mundo.
+Siendo pocible bajar el codigo fuente del mismos y ejecutarlo en multitud de sistemas
+
+.. code-block:: bash
+
+    git clone https://github.com/rulghoul/proyecto.git
+
+.. code-block:: bash
+
+    cd proyecto
+
+.. code-block:: bash
+
+    python -m pip install -r requirements.txt
+
+.. code-block:: bash
+
+    python manage.py runserve
+
+   
